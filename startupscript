@@ -1,0 +1,10 @@
+#!/bin/bash
+# My first script
+
+lxterminal -e socat -d -d pty,raw,echo=0 pty,raw,echo=0
+
+lxterminal -e node-red
+
+lxterminal -e /usr/bin/python /home/pi/Desktop/final_code/log_f.py
+
+/usr/bin/chromium-browser --app=http://localhost:1880/ui --start-fullscreen
