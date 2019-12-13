@@ -5,6 +5,7 @@ If the heart rate is normal the motor will not assist the rider but if the heart
 
 -The logger program logs the riders heart rate, speed, and ambient temperature of the surroundings by collecting sensor data.
 The logger logs data to a file up to a max size of 20 MB. If the file reaches the max size it will create a new file to log data.
+
 -The start up script runs all programs by one command remotely from the Raspberry Pi 3.
 
 
